@@ -22,7 +22,7 @@ inline bool bcomp(const pii &a, const pii &b) {
 int main() {
     int test, i, j, k, n, ans;
     pii p[MAX];
-	scanf("%d", &test);
+    scanf("%d", &test);
     while(test--) {
         scanf("%d", &n);
         for(i = 0; i < n; i++) scanf("%d %d", &p[i].ff, &p[i].ss);
